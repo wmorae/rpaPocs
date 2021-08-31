@@ -1,0 +1,39 @@
+Alvara
+Dentro do arquivo tem CNPJ
+Procurar cliente com CNPJ no SAP
+transação xd02 aba endereços
+Ajustar as visões  (empresa que ele é cadastrado)
+Ver se o cliente ja tem cadastro
+Atualizar:N do alvará && Validade
+Salvar
+Salvar ALVARA em TFM 
+
+AFE
+Dentro do arquivo tem CNPJ
+Procurar cliente com CNPJ no SAP
+transação xd02 aba DadosdeControle
+Ir para aba Dados de controle
+Abrir ctgs imposto...
+Inserir z10 numero afe  n° autorização(file) && Autorizado em (file) && datafutura ficticia
+Enter
+Salvar
+Salvar AFE em TFM 
+
+TFM:
+Criar Cadastro TFM:
+Codigo do cliente (fonte sap)
+Cnpj
+Razão social
+Salvar como
+
+
+Entrar TMF
+Verificar se o cliente tem Cadastro no tfm: Pesquisar por codigo do cliente
+Se tiver cadastro vai retornar o resultado
+Se nao tiver, vai retornar nulo
+Editar o cadastro (clicar lapis)
+Alterar para cadastro alterado / realizado
+No campo alvara sanitario:
+Se tiver alvara antigo, excluir
+Inserir Data de validade do alvara && inputar arquivo do input
+Mover alvará atualizado.

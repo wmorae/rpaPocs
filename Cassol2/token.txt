@@ -1,0 +1,26 @@
+{
+    "message": "OK",
+    "success": true,
+    "userFirstName": "Wendrel",
+    "userLastName": "1",
+    "emailId": "wendrelmorae@gmail.com",
+    "idpUserName": null,
+    "errorMessage": null,
+    "tenant": {
+        "id": 723,
+        "name": "PREMIERIT_QUALITY_DEV",
+        "orgCode": "PREMIERIT_QUALITY_DEV",
+        "createdDate": 1599203374515,
+        "lastUpdatedDate": 1614265139929,
+        "onPrem": null,
+        "trial": null,
+        "adminOrg": false,
+        "deleted": null,
+        "description": null
+    },
+    "sessionToken": "ab5b961ea9b7f8731abe539fe16c4716771784317614e523dee5ceb733778f83:63b3d157-ce84-4c82-8104-bb9051a2feee1624935378471",
+    "roles": "ROLE_TENANT_ADMIN",
+    "forceChangePassword": false,
+    "userName": "wendrel",
+    "lastLoginTime": 1624933496117
+}

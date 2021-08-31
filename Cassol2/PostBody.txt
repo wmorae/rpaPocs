@@ -1,0 +1,9 @@
+{
+	"orgCode": "PREMIERIT_QUALITY_DEV",
+	"workflowName":"Cotacao Dolar Banco Central",
+	"userId":"wendrel",
+	"source":"AutomationEdge Demo",
+	"sourceId":null,
+	"responseMailSubject":null,
+	"params":[]
+}
