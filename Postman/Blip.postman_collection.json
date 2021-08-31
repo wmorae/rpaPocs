@@ -1,0 +1,50 @@
+{
+	"id": "4e635787-3bf1-1ea8-403a-d1c2d8dfa17a",
+	"name": "Blip",
+	"description": "",
+	"order": [
+		"53be25fb-5eb5-4d3d-d205-4f18963c449e"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1626716083908,
+	"owner": "16112198",
+	"public": false,
+	"requests": [
+		{
+			"id": "53be25fb-5eb5-4d3d-d205-4f18963c449e",
+			"headers": "Authorization: Key cnBhaW50ZWdyYWRvOnVWd0J5Tnp2QzZ4NXFYblpVM3dz\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Key cnBhaW50ZWdyYWRvOnVWd0J5Tnp2QzZ4NXFYblpVM3dz",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://http.msging.net/messages",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1627398253703,
+			"name": "Send message BLIP",
+			"description": "",
+			"collectionId": "4e635787-3bf1-1ea8-403a-d1c2d8dfa17a",
+			"responses": [],
+			"rawModeData": "{\r\n    \"to\": \"a8586c78-5687-4b35-a3fa-7e5565fadcf8.rpaintegrado@0mn.io\",\r\n    \"type\": \"text/plain\",\r\n    \"content\": \"Hello, how can I help you?\"\r\n}"
+		}
+	]
+}

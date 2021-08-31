@@ -1,0 +1,117 @@
+{
+	"id": "d86a7a29-65a6-1cb5-b9cd-023edfda8ba4",
+	"name": "AE",
+	"description": "",
+	"order": [
+		"8482577a-19c9-d2af-63be-797cdf51d9b3",
+		"04930173-210f-afd2-6f26-6e8e1d2b6c0c",
+		"812886ce-a827-3d15-968e-a9ff1b2dadee"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 0,
+	"owner": "16112198",
+	"public": false,
+	"requests": [
+		{
+			"id": "04930173-210f-afd2-6f26-6e8e1d2b6c0c",
+			"headers": "X-session-token: ab5b961ea9b7f8731abe539fe16c4716771784317614e523dee5ceb733778f83:0957ef9a-60c3-4d19-a62d-08e00f40443b1627321943863\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "X-session-token",
+					"value": "ab5b961ea9b7f8731abe539fe16c4716771784317614e523dee5ceb733778f83:0957ef9a-60c3-4d19-a62d-08e00f40443b1627321943863",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://ondemand.automationedge.com/aeengine/rest/execute",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1627325637728,
+			"name": "ExecuteWorkflow",
+			"description": "ExecutarWorkflow",
+			"collectionId": "d86a7a29-65a6-1cb5-b9cd-023edfda8ba4",
+			"responses": [],
+			"rawModeData": "{\r\n\"orgCode\": \"PREMIERIT_QUALITY_DEV\",\r\n\"workflowName\": \"Blip\",\r\n\"userId\": \"wendrel\",\r\n\"responseMailSubject\": null,\r\n\"params\": [\r\n\t{\r\n\t\"name\":\"mundo\",\r\n\t\"value\":\"Banhos\",\r\n\t\"type\":\"String\"\r\n\t},\r\n\t{\r\n\t\"name\":\"adress\",\r\n\t\"value\":\"Blabla@mamsa.com\",\r\n\t\"type\":\"String\"\r\n\t}\r\n\t]\r\n}"
+		},
+		{
+			"id": "812886ce-a827-3d15-968e-a9ff1b2dadee",
+			"headers": "Content-Type: application/json\nX-session-token: ab5b961ea9b7f8731abe539fe16c4716771784317614e523dee5ceb733778f83:113cfa0e-dc88-4190-a4e7-f2be53f836c81627318394935\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-session-token",
+					"value": "ab5b961ea9b7f8731abe539fe16c4716771784317614e523dee5ceb733778f83:113cfa0e-dc88-4190-a4e7-f2be53f836c81627318394935",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://ondemand.automationedge.com/aeengine/rest/workflowinstances/5144094",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1627318562138,
+			"name": "GetWorkflow Result",
+			"description": "",
+			"collectionId": "d86a7a29-65a6-1cb5-b9cd-023edfda8ba4",
+			"responses": []
+		},
+		{
+			"id": "8482577a-19c9-d2af-63be-797cdf51d9b3",
+			"name": "Autaticathe AE",
+			"description": "Autenticar AE",
+			"collectionId": "d86a7a29-65a6-1cb5-b9cd-023edfda8ba4",
+			"method": "POST",
+			"headers": "",
+			"data": [],
+			"rawModeData": "",
+			"pathVariables": {},
+			"url": "https://ondemand.automationedge.com/aeengine/rest/authenticate?username=wendrel&password=Wendrel@123",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "username",
+					"value": "wendrel",
+					"equals": true,
+					"description": ""
+				},
+				{
+					"key": "password",
+					"value": "Wendrel@123",
+					"equals": true,
+					"description": ""
+				}
+			],
+			"headerData": [],
+			"collection_id": "d86a7a29-65a6-1cb5-b9cd-023edfda8ba4"
+		}
+	]
+}
